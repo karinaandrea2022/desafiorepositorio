@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+#menu ul li a{
+    color: white; 
+    display: block;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+#menu{
+    background-color: black;
+}
+.contenedor{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#menu ul li{
+    display: inline-block;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+footer p{
+    background-color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+p{
+    background-color: rgb(75, 165, 42);
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
