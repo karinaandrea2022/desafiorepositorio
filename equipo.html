@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Ingobernables</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <section class="padre">
         <div class="hijo">
-            <header> SOMOS INGOBERNABLES</header>
-            <h5>INGOBERNABLES UN PROGRAMA HECHO POR MUJERES INGOBERLABLES.</h5>
+            <header data-aos="flip-up">SOMOS INGOBERNABLES</header>
+            <h5 data-aos="zoom-in">INGOBERNABLES UN PROGRAMA HECHO POR MUJERES INGOBERLABLES.</h5>
         </div>
         <div class="hijo"></div>
         <p>
@@ -35,11 +36,18 @@
         <div class="imagen5"><img src="imagenes/gladis.png"width="400" height="400"></div>
         <div class="imagen6"><img src="imagenes/kary.png"width="400" height="400"> </div>
     </section>
-    <div class="imagen0"><img src="imagenes/equipocompleto.jpg"></div>
+    <div class="imagen0"><img data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" src="imagenes/equipocompleto.jpg"></div>
     </section>
     <footer>
         <p>&copy2022 Desarrollado por Rossano Karina</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 </html>

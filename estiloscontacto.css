@@ -5,12 +5,16 @@ body{
 }
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26p16x;
+    font-size: 22p16x;
     color: aliceblue;
+    text-align: center;
+    background-image: url(imagenes/fondo.jpg);
+    padding: 40px;
     
 }
 section main{
-    margin: 3rem;
+    margin: 5rem;
+    
 }
 .formulario{
     margin: 1rem;
@@ -20,5 +24,13 @@ section main{
     font-size: 22px;
     
     
+
+}
+footer p{
     
+        background-color: blue;
+        font-size: 28px;
+        text-align: center;
+        font-family: sans-serif;
+        color: aliceblue;
 }

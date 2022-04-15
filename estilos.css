@@ -1,15 +1,22 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: black;
+    background-color: rgb(188, 45, 45);
     
 }
 header{
-    background-color: blueviolet;
+    background-image: url(imagenes/fondo.jpg);
     text-align: center;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    position:relative;
+    margin: 10% auto 0;
+    
+    
+}
+
 h5{
     background-color:goldenrod;
     text-align: center;
@@ -24,6 +31,7 @@ h5{
     
 }
 .imagen0{
+    padding: 15px;
     display: flex;
     justify-content: center;
     background-color: red;
@@ -64,6 +72,7 @@ footer p{
     background-color: blue;
     text-align: center;
     font-family: sans-serif;
+    color: aliceblue;
     
 }
 
